@@ -1,0 +1,93 @@
+# ---------------- Python 字节码与缓存 ----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+Python/
+
+# ---------------- 打包与构建产物 ----------------
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---------------- 虚拟环境 ----------------
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# ---------------- 测试与覆盖率 ----------------
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+nosetests.xml
+junit/
+
+# ---------------- 类型检查与代码质量工具 ----------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+.ty/
+
+# ---------------- Jupyter / IPython ----------------
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ---------------- 文档构建 ----------------
+docs/_build/
+site/
+
+# ---------------- 环境变量与密钥（重要） ----------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.py
+secrets.json
+
+# ---------------- 数据库与本地数据 ----------------
+*.sqlite
+*.sqlite3
+*.db
+instance/
+
+# ---------------- 编辑器与 IDE ----------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+.ropeproject
+
+# ---------------- 操作系统 ----------------
+.DS_Store
+Thumbs.db
+desktop.ini
